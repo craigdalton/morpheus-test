@@ -26,7 +26,7 @@ spec:
       hostname: iag01
       containers:
         - name: iag
-          image: nexusprod.corp.intranet:4567/ias/itential-adv-srvcs/ias-infra-iag/ias-iag:0.5.3
+          image: 151.117.160.82:4567/ias/itential-adv-srvcs/ias-infra-iag/ias-iag:0.5.3
           imagePullPolicy: Always
           env:
           - name: MAX_EVENT_RES
